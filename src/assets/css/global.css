@@ -1,0 +1,169 @@
+.box {
+  padding: 30px 50px;
+  width: 80%;
+  border-right: 2px #ccc solid;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.search {
+  padding: 12px 8px;
+  width: 350px;
+  font-size: 18px;
+  outline: 2px solid #ccc;
+  border: none;
+  border-radius: 0.125rem;
+}
+
+.new-button {
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  background-color: rgb(240, 218, 96);
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.group-action {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.create-button {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  padding: 15px;
+  margin-right: 10px;
+  background-color: rgb(49, 138, 221);
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.cancel-button {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  padding: 15px;
+  margin-left: 10px;
+  background-color: rgb(221, 69, 49);
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.update-button {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: rgb(49, 138, 221);
+  border: none;
+  font-size: 16px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.delete-button {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: rgb(221, 69, 49);
+  border: none;
+  font-size: 16px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+table {
+  font-size: 18px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+.form-group div {
+  width: 50%;
+  padding: 10px 10px 10px 0;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-inputs {
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 0.125rem;
+  outline: 2px solid #ccc;
+}
+
+.date {
+  padding: 10px;
+  outline: 2px solid #ccc;
+  border: none;
+}
+
+.send {
+  padding: 15px;
+  width: 150px;
+  margin-left: 20px;
+  display: flex;
+  color: rgb(235, 237, 255);
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(52, 71, 180);
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}

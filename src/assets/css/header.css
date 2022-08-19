@@ -1,0 +1,11 @@
+.header {
+  width: auto;
+  height: 110px;
+  border-bottom: 2px #CCC solid;
+  border-right: 2px #CCC solid;
+  border-left: 2px #CCC solid;
+}
+
+.img-box {
+  padding-left: 10px;
+}

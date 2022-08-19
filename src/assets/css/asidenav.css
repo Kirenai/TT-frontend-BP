@@ -1,0 +1,12 @@
+.aside-box {
+  width: 20%;
+  border-right: 2px #CCC solid;
+  border-left: 2px #CCC solid;
+  height: 100vh;
+}
+
+.aside-item {
+  font-size: 18px;
+  padding: 15px;
+  border-bottom: 2px #CCC solid;
+}
